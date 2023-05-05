@@ -1,18 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider))]
 public class Coin : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int Value { get; set; } = 1;
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Pickup();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Pickup()
     {
-        
+        GameManager.Instance.PickupCoin(this);
+        Destroy(gameObject);
     }
 }
