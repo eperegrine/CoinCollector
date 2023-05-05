@@ -1,0 +1,17 @@
+.main-menu-btn {
+    background-color: rgb(97, 25, 226);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -unity-font-style: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.main-menu-btn:hover {
+    background-color: aqua;
+}

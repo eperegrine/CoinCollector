@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="height: 536px; width: 634px; flex-grow: initial; flex-basis: 100%;">
+        <ui:GroupBox style="justify-content: space-between; align-items: center; height: 100%; visibility: visible; display: flex; overflow: visible; position: relative; padding-top: 10%; padding-left: 20%; padding-right: 20%; padding-bottom: 20%;">
+            <ui:Label text="Coin Collector" display-tooltip-when-elided="true" name="Title" style="-unity-text-align: upper-center; -unity-font-style: bold; -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;); font-size: 72px;" />
+            <ui:GroupBox style="flex-grow: initial; justify-content: space-around; align-items: stretch; flex-direction: column; flex-basis: 100%; margin-top: 50px; flex-shrink: initial; width: 100%; height: 100%;">
+                <ui:Button text="Play" display-tooltip-when-elided="true" name="PlayBtn" class="main-menu-btn" />
+                <ui:Button text="Settings" display-tooltip-when-elided="true" name="SettingBtn" class="main-menu-btn" />
+                <ui:Button text="Quit Button" display-tooltip-when-elided="true" name="Quit" class="main-menu-btn" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>
