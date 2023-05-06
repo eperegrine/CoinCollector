@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 8203516747832033575}
   - component: {fileID: 8203213864327742838}
   - component: {fileID: 8203213864327742836}
+  - component: {fileID: 9025625077848372073}
   m_Layer: 0
   m_Name: GoldCoin
   m_TagString: Untagged
@@ -116,7 +117,7 @@ Transform:
   - {fileID: 8203454686893853967}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -180}
 --- !u!65 &8203213864327742838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -142,3 +143,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f3f0643db7e4074e8a4c925fa9e46ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!111 &9025625077848372073
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8201891951676365797}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: f0bb00ce2caa9d345934e06733f194bf, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: f0bb00ce2caa9d345934e06733f194bf, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
